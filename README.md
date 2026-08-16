@@ -2,7 +2,7 @@
 
 Partition, Transform, Load, and Search large CSV files.
 
-![system](docs/diagrams/system.png)
+![system](docs/digrams/system.png)
 
 The core idea behind this architecture is to be able to adjust parameters to scale the system as per the amount of computing available in the environment. For instance, the system can process more batches on a CPU with more threads.
 
