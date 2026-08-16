@@ -36,7 +36,7 @@ Benchmarks were done on Apple M2 CPU with 16 GB Memory. `scripts/pandas_benchmar
 
 Partition input CSV file into multiple smaller files.
 
-![partitioner](docs/diagrams/partitioner.png)
+![partitioner](docs/digrams/partitioner.png)
 
 **Partition Manifest**
 
@@ -84,7 +84,7 @@ $ scale-etl partition --file-path samples/sample_10m.csv --partition-size 100000
 
 Transform partitions into a particular format (`dynamodb`, `parquet`, `json`, `csv`).
 
-![transformer](docs/diagrams/transformer.png)
+![transformer](docs/digrams/transformer.png)
 
 **Schema**
 
@@ -134,7 +134,7 @@ $ scale-etl transform --file-path samples/sample_10m.csv --segment-size 10000
 
 Searches partitions for a specific pattern.
 
-![search-interface](docs/diagrams/search-interface.png)
+![search-interface](docs/digrams/search-interface.png)
 
 **Usage**
 
@@ -170,7 +170,7 @@ $ scale-etl search --file-path samples/sample_10m.csv --segment-size 10000 --pat
 
 Load transformed segments concurrently.
 
-![loader](docs/diagrams/loader.png)
+![loader](docs/digrams/loader.png)
 
 **Usage**
 
